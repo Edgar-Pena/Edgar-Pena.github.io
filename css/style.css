@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/encontro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "lato", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.logo {
+    display: block;
+    margin:auto;
+    width: 50px;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: 'Ms Madi', cursive;
+    margin: 20px 0 80px;
+    line-height: 50px;
+    font-weight: lighter
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.container {
+    margin: auto;
+    width: 250px;
+    height: 90%;
+    text-align: center;  
+}
+
+.formulario {
+    width: 73%;
+    margin: auto;
+}
+
+.label-checkbox {
+    display: block;
+    width: 100%;
+    margin: 13px auto 26px;
+}
+
+.input {
+    padding: 12px;
+    width: 100%;
+    margin: 6px 0;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+}
+
+.button {
+    width: 100%;
+    padding: 16px;
+    margin: 10px auto 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 15px
+}
+
+.button:hover {
+    background-color: #014ea0;
+}
